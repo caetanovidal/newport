@@ -107,6 +107,26 @@
     max-width: 20px;
   }
   
+  /* Translate container */
+
+  #translate-container {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+
+  #translate-container h1 {
+    margin-right: auto;
+  }
+
+  #translate-container a {
+    padding: 5px;
+  }
+
+
+
   /* about container */
 
   #about-container p {
