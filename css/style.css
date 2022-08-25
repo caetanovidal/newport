@@ -110,7 +110,8 @@
   /* Translate container */
 
   #translate-container {
-    display: flex;
+    /*display: flex; */
+    display: none;
     justify-content: center;
     list-style: none;
     margin-bottom: 25px;
@@ -145,7 +146,7 @@
   }
   
   .description {
-    max-width: 75%;
+    max-width: 100%;
     margin-bottom: 10px;
   }
   
@@ -265,13 +266,14 @@
   }
 
   main div.video {
-    background-color: #1e072498;
+    /* background-color: #1e072498; */
     padding: 20px;
     padding-bottom: 45%;
     position: relative;
   }
   
   main div.video > iframe {
+    margin-left: -5%;
     position: absolute;
     top: 5%;
     left: 5%;
