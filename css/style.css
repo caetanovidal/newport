@@ -107,15 +107,32 @@
     max-width: 20px;
   }
   
-  /* Translate container */
 
   #translate-container {
-    /*display: flex; */
-    display: none;
-    justify-content: center;
-    list-style: none;
-    margin-bottom: 25px;
-    padding-bottom: 25px;
+    position: absolute;
+    top: 10px; /* Adjust the top distance as needed */
+    right: 10px; /* Adjust the right distance as needed */
+  }
+
+  .cta-button {
+    background-color: #54B689; /* Customize the background color */
+    color: #FFF; /* Text color */
+    padding: 10px 20px; /* Adjust padding for the button size */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  .cta-link {
+    color: #54B689; /* Customize the link color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
   }
 
   #translate-container h1 {
